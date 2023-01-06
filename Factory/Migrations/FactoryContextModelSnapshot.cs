@@ -25,9 +25,11 @@ namespace Factory.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Details")
+                        .IsRequired()
                         .HasColumnType("longtext");
 
                     b.Property<string>("Name")
+                        .IsRequired()
                         .HasColumnType("longtext");
 
                     b.HasKey("EngineerId");
@@ -63,9 +65,11 @@ namespace Factory.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Details")
+                        .IsRequired()
                         .HasColumnType("longtext");
 
                     b.Property<string>("Name")
+                        .IsRequired()
                         .HasColumnType("longtext");
 
                     b.HasKey("MachineId");
