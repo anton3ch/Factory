@@ -62,12 +62,12 @@ Dr. Sillystringz's Factory lets owner add and track their engineers and machines
     Open MySQLWorkbench, log in, and connect to your local server
     Go to the Administration tab, select Data Import/Restore
     Select Import from Self Contained File
-    Select ../anton_ch.sql from the top level of the cloned repository, HairSalon.
-    Select "New..." and set new schema name to anton_ch
+    Select ../anton_ch_factory.sql from the top level of the cloned repository, Factory.
+    Select "New..." and set new schema name to anton_ch_factory
     Select 'Start Import'
     Now you have a copy of the project database on your machine.
   ```
-  
+
 - Update Database:
   ```
   ~/Desktop/Factory.Solution/Factory $ dotnet ef database update
